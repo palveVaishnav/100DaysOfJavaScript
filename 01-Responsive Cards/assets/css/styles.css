@@ -1,0 +1,104 @@
+/* Will be using mobile first approach */
+
+:root{
+  --bg-main: rgb(61, 180, 28);
+  --bg-image: rgb(83, 191, 83);
+  
+  --bg-card: rgb(41, 139, 41);
+  
+  --shadow: rgb(28, 55, 20);
+  --text-main: rgb(0, 0, 0);
+}
+
+body{
+  background-color: var(--bg-main);
+  color: #fff;
+}
+
+.container{
+  margin: .75em;
+}
+
+.card__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+  padding: 1.25em;
+  /* overflow: hidden; */
+}
+
+.card_{
+  padding: .75em 1.25em;
+  /* background-color: var(--bg-card); */
+  width: 300px;
+  margin: .50em;
+  border-radius: .75em;
+  display: grid;
+  place-items: center;
+}
+
+.card__image{
+  background-color: var(--shadow);
+  padding: .75em;
+  border-radius: 1em 1em 0 0;
+}
+
+.card__image img{
+  width: 300px;
+}
+/* .image__shadow{
+  background-color: var(--bg-image);
+  overflow: hidden;
+  height: 150px;
+  margin-top:-160px;
+  border-radius: 50%;
+}
+.image__shadow:hover{
+  filter: blur(14em);
+} */
+
+.card__text{
+  text-align: center;
+  padding: 1.5em;
+}
+
+.card__title{
+  font-size: 1.5em;
+  color: black;
+}
+
+.person__intro{
+  /* text-align: left; */
+}
+.card__text{
+  background-color: var(--bg-card);
+  border-radius: 1em 1em;
+  margin-top: -2.5em;
+}
+.card__description{}
+
+.button{
+  display: grid;
+  place-items: center;  
+  /* padding: .75em .25em; */
+}
+
+button{
+  padding: .75em 1.5em;
+  background-color: var(--shadow);
+  font-weight: 700;
+  border: 1px solid var(--bg-card);
+  border-radius: 4px;
+}
+button{
+  color: white;
+}
+.view__more{
+  color:var(--text-main);
+  text-decoration: none;
+}
+
+a{
+  color: aliceblue;
+}
