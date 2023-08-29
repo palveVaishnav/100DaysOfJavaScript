@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Single Page</title>
+        <style>
+            div {
+                margin: 3em;
+                text-align: center;
+                display: none;
+                /* border: 2px solid #000; */
+            }
+        </style>
+        <script src="rough.js"></script>
+    </head>
+    <body>
+        <button data-page="page1" data-color="red">Page 1</button>
+        <button data-page="page2" data-color="yellow">Page 2</button>
+        <button data-page="page3" data-color="grey">Page 3</button>
+        <div id="page1">
+            <h1>This is page 1</h1>
+        </div>
+        <div id="page2">
+            <h1>This is page 2</h1>
+        </div>
+        <div id="page3">
+            <h1>This is page 3</h1>
+        </div>
+    </body>
+</html>
